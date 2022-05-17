@@ -35,6 +35,30 @@
             android:layout_height="wrap_content" />
     </com.google.android.material.textfield.TextInputLayout>
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sexo" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupSexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButtonM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Masculino" />
+
+        <RadioButton
+            android:id="@+id/radioButtonF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Feminino" />
+    </RadioGroup>
+
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
@@ -47,4 +71,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Resultado" />
+
+    <TextView
+        android:id="@+id/resultadoSexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>
